@@ -215,6 +215,7 @@
 h1 {
   display: inline-block;
   font-size: 28px;
+  /* padding-top: 60px; */
   padding-bottom: 5px;
   border-bottom: aquamarine 8px solid;
   color: #424242;
@@ -301,10 +302,14 @@ h2 {
   border: gainsboro solid 1px;
 }
 
+.displaynone {
+  display: none;
+}
+
 /* 区切り線 */
 .border-article {
   border-top: double 5px gainsboro ;
-  padding-top: 80px;
+  padding-top: 80px;  
 }
 
 
@@ -664,9 +669,9 @@ h2 {
 .skill {
   flex-direction: column;
   text-align: left;
-  margin-bottom: 80px;
   text-align: center;
   line-height: 2em;
+  margin-bottom: 0;
 }
 
 .skill-left {
@@ -676,6 +681,7 @@ h2 {
 
 .skill-right {
   width: 100%;
+  margin-bottom: 40px;
 }
 
 
@@ -692,8 +698,9 @@ h2 {
   /* box-shadow: 2px 2px 4px gainsboro; */
   /* text-align: center; */
   margin-bottom: 60px;
-
 }
+
+
 
 .main-box-servise {
   text-align: center;
