@@ -1,0 +1,721 @@
+/* @media screen and (min-width: 740px) { */
+
+#body-all {
+  background-color: whitesmoke;
+  color: gray;
+  font-size: 16px;
+  line-height: 1.7em;
+  font-family: 
+  "Helvetica Neue",
+  Arial,
+  "Hiragino Kaku Gothic ProN",
+  "Hiragino Sans",
+  Meiryo,
+  sans-serif;
+  /* font-family: system-ui,-apple-system,BlinkMacSystemFont,"ヒラギノ角ゴ W3",sans-serif; */
+  /* font-family: "M PLUS 1p",sans-serif; */
+}
+
+.borderline {
+  background-color: aquamarine;
+  /* background-image: linear-gradient(45deg, #709dff 0%, #b0c9ff 100%); */
+  width: 100%;
+  height: 10px;
+}
+
+#container-a {
+  margin: 0 auto;
+  background-color: white;
+  box-shadow: 2px 2px 4px gainsboro;
+  max-width: 1100px;
+  padding-top: 8px;
+  padding-right: 5%;
+  padding-left: 5%;
+  padding-bottom: 40px;
+}
+
+
+/* ヘッダートップ */
+
+#header-top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.header-top-logo {
+  width: 170px;
+  display: inline-block;
+}
+
+.header-top-logo img {
+  width: 100%;
+  object-fit: fill;
+}
+
+/* .header-top-logo img {
+
+  width:auto;
+  height:auto;
+  max-width:100%;
+  max-height:100%;
+} */
+
+.header-top-tagline {
+  font-size: 15px;
+  text-align: right;
+  display: inline-block;
+}
+
+
+.img-sp {
+  display: none;
+}
+.img-sp-contact {
+  display: none;
+}
+
+
+/* メニュー */
+
+/* メニューモバイル非表示 */
+#nav-drawer {
+  display: none;
+}
+/* 
+.menu-mobile {
+  display: none;
+} */
+
+
+.main-menu {
+  /* background-color: greenyellow; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 20px;
+
+}
+
+.main-menu-li {
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-left: solid 12px aquamarine;
+
+  /* border-left: solid 12px #709dff; */
+}
+
+.main-menu-li a {
+  text-decoration: none;
+  color: gray;
+}
+
+.main-menu-li a:hover {
+  color: aquamarine;
+}
+
+/* ヘッダーフォト */
+#header-photo {
+  width: 100%;
+}
+
+.header-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+/* ヘッダーコピー */
+#header-copy {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 70px;
+}
+
+.header-copy-left {
+  font-weight: normal;
+  /* font-size: clamp(16px, 1rem + 3vw, 22px); */
+  font-size: 22px;
+  line-height: 1.5em;
+}
+
+/* ボタン */
+
+
+
+.contactbtn {
+  display: inline-block;
+  width: 200px;
+  height: 50px;
+  line-height: 50px;
+  background: yellow;
+  text-align: center;
+  color: gray;
+  /* box-shadow: 2px 2px 4px gray; */
+  box-shadow: 2px 2px 4px gainsboro;
+  transition: all 0.1s;
+  cursor: pointer;
+}
+
+.right {
+  margin-right: 20px;
+}
+
+
+.contactbtn:hover {
+  transform: translate(2px, 2px);
+  /* box-shadow: 1.5px 1.5px gray; */
+  box-shadow: 2px 2px 4px gainsboro;
+  background: yellow;
+  color: white;
+  /* 全てのプロパティをトランジション */
+  transition: all 0.3s;
+}
+
+.contactbtn a:hover {
+  color: white;
+}
+
+.space-bottom {
+  margin-bottom: 50px;
+}
+
+
+.retarn {
+ text-align: right;
+}
+
+
+.retarnbtn {
+  display: inline-block;
+  width: 100px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 14px;
+  background: gainsboro;
+  text-align: center;
+  color: gray;
+  border: gainsboro solid 1px;
+  box-shadow: 2px 2px 4px gainsboro;
+  transition: all 0.1s;
+  cursor: pointer;
+
+}
+
+
+
+
+.main-box {
+  text-align: center;
+  padding: 0 8%;
+}
+
+h1 {
+  display: inline-block;
+  font-size: 28px;
+  padding-bottom: 5px;
+  border-bottom: aquamarine 8px solid;
+  color: #424242;
+  max-width: 100%;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-bottom: 50px;
+}
+
+/* アバウト内容 */
+
+
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  text-align: left;
+  margin-bottom: 80px;
+}
+
+.about-desc {
+  box-sizing: border-box;
+  width: 55%;
+  border-left: aquamarine solid 10px;
+  border-left: linear-gradient(45deg, #709dff 0%, #b0c9ff 100%) solid 10px;
+  
+  padding-left: 10px;
+}
+
+h2 {
+  color: #424242;
+  font-weight: bold;
+  font-size: 20px;
+  border-bottom: 2px solid aquamarine;
+  margin-bottom: 10px;
+  line-height: 1.5em;
+  padding: 5px 0 5px 0;
+
+}
+
+.about-img {
+  box-sizing: border-box;
+  width: 40%;
+}
+
+.about-img img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* スキル */
+.skill {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  text-align: left;
+  margin-bottom: 80px;
+  text-align: center;
+  line-height: 2em;
+}
+
+.skill-left {
+  width: 48%;
+  background-color: whitesmoke;
+}
+
+.skill-right {
+  width: 48%;
+  background-color: whitesmoke;
+}
+
+.skill-th {
+  background-color: aquamarine;
+  margin-bottom: 0px;
+  border-bottom: 3px solid white;
+}
+
+.shadow {
+  box-shadow: 2px 2px 4px gainsboro;
+}
+
+.border {
+  border: gainsboro solid 1px;
+}
+
+/* 区切り線 */
+.border-article {
+  border-top: double 5px gainsboro ;
+  padding-top: 80px;
+}
+
+
+/* フッター */
+footer {
+  background-color: aquamarine;
+  height: 70px;
+  text-align: center;
+  line-height: 70px;
+}
+
+
+
+
+/* サービス */
+
+.main-box-servise {
+  text-align: center;
+  /* padding: 0%; */
+}
+
+
+.servise {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  text-align: left;
+  margin-bottom: 60px;
+  /* text-align: center; */
+}
+
+.servise-square {
+  width: 31%;
+  /* background-color: whitesmoke; */
+  box-shadow: 2px 2px 4px gainsboro;
+  text-align: center;
+  background-color: white;
+}
+
+.servise-photo img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: bottom;
+}
+
+h3 {
+  /* background-color: white; */
+  border-bottom: aquamarine 3px solid;
+  border-bottom: ＃40E0D0 3px solid;
+  width: 85%;
+  padding: 15px 0px 10px 0px;
+  font-weight: bold;
+  color: black;
+  display: inline-block;
+}
+
+.servise-desc {
+  text-align: left;
+  padding: 10px 30px 20px 30px;
+}
+
+
+/* お問合わせページ */
+
+.contact-form {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 100px
+}
+
+.form {
+  /* width: 80%; */
+  width: 400px;
+  margin: 0 auto;
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+
+label {
+  display: block;
+
+}
+
+input {
+  display: block;
+  width: 100%;
+  border: gainsboro 1px solid;
+}
+
+textarea {
+  display: block;
+  width: 100%;
+  border: gainsboro 1px solid;
+}
+
+.form-content {
+  margin-bottom: 16px;
+}
+
+button {
+  color: white;
+  display: inline-block;
+  width: 150px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 14px;
+  background: gray;
+  text-align: center;
+  border: gainsboro solid 1px;
+  box-shadow: 2px 2px 4px gainsboro;
+  transition: all 0.1s;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  ;
+}
+
+
+
+/* pc用表示終わり */
+
+
+/* レスポンシブ対応 */
+
+@media screen and (max-width: 740px) {
+
+  #body-all {
+    font-size: 15px;
+  }
+
+  #container-a {
+    padding-top: 15px;
+  }
+
+  /* ヘッダー */
+
+  .header-top-logo img {
+    width: 90%;
+    /* display: inline-block; */
+  }
+
+  .img-pc {
+    display: none;
+  }
+
+  .img-sp {
+      display: block;
+  }
+  
+  /* コンタクトページ用 */
+  .img-pc-contact {
+    display: none;
+  }
+
+  .img-sp-contact {
+      display: block;
+  }
+
+
+/* ハンバーガーメニュー */
+/* PCメニューを非表示 */
+.header-menu {
+  display: none;
+}
+
+
+#nav-drawer {
+  display: block;
+}
+
+#nav-drawer {
+  position: relative;
+}
+
+/*チェックボックス等は非表示に*/
+.nav-unshown {
+  display:none;
+}
+
+/*アイコンのスペース*/
+#nav-open {
+  display: inline-block;
+  width: 30px;
+  height: 22px;
+  vertical-align: middle;
+}
+
+/*ハンバーガーアイコンをCSSだけで表現*/
+#nav-open span, #nav-open span:before, #nav-open span:after {
+  position: absolute;
+  height: 3px;/*線の太さ*/
+  width: 30px;/*長さ*/
+  border-radius: 3px;
+  background: #555;
+  display: block;
+  content: '';
+  cursor: pointer;
+}
+#nav-open span:before {
+  bottom: -10px;
+}
+#nav-open span:after {
+  bottom: -20px;
+}
+
+/*閉じる用の薄黒カバー*/
+#nav-close {
+  display: none;/*はじめは隠しておく*/
+  position: fixed;
+  z-index: 99;
+  top: 0;/*全体に広がるように*/
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
+  opacity: 0;
+  transition: .3s ease-in-out;
+}
+
+/*中身*/
+#nav-content {
+  overflow: auto;
+  position: fixed;
+  top: 55px;
+  left: 0;
+  z-index: 9999;/*最前面に*/
+  width: 90%;/*右側に隙間を作る（閉じるカバーを表示）*/
+  max-width: 312px;/*最大幅（調整してください）*/
+  height: auto;
+  background: white;/*背景色*/
+  opacity: 0.9;
+  transition: .3s ease-in-out;/*滑らかに表示*/
+  -webkit-transform: translateX(-105%);
+  transform: translateX(-105%);/*左に隠しておく*/
+}
+
+/*チェックが入ったらもろもろ表示*/
+#nav-input:checked ~ #nav-close {
+  display: block;/*カバーを表示*/
+  opacity: .5;
+}
+
+#nav-input:checked ~ #nav-content {
+  -webkit-transform: translateX(0%);
+  transform: translateX(0%);/*中身を表示（右へスライド）*/
+  box-shadow: 6px 0 25px rgba(0,0,0,.15);
+}
+
+
+/* メニューの体裁 */
+.main-menu-mobile-li {
+  width: 300px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-left: solid 12px aquamarine;
+  /* border-left: solid 12px #709dff; */
+}
+
+.main-menu-mobile-li a {
+  text-decoration: none;
+  color: gray;
+}
+
+.main-menu-mobile-li a:hover {
+  color: aquamarine;
+  border-bottom: aquamarine 3px solid;
+}
+
+
+
+
+  .header-top-logo {
+    width: 180px;
+  
+    /* display: inline-block; */
+  }
+
+
+  /* メニュー */
+  #main-menu {
+    display: none;
+  }
+
+  #header-top {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .header-top-tagline {
+    font-size: 12px;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-top: -25px;
+  }
+
+  #header-copy {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .right {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .header-copy-left {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+
+
+
+/* アバウト内容 */
+.about {
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.about-desc {
+  box-sizing: border-box;
+  width: 100%;
+  border: none;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+h2 {
+  padding-bottom: 10px;
+  border-bottom: 5px solid aquamarine;
+}
+
+.about-desc p {
+  text-align: left;
+}
+
+.reverse {
+  flex-direction: column-reverse;
+}
+
+.about-img {
+  box-sizing: border-box;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.about-img img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* スキル */
+.skill {
+  flex-direction: column;
+  text-align: left;
+  margin-bottom: 80px;
+  text-align: center;
+  line-height: 2em;
+}
+
+.skill-left {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.skill-right {
+  width: 100%;
+}
+
+
+/* サービス */
+
+.servise {
+  flex-direction: column;
+  margin-bottom: 0px;
+}
+
+.servise-square {
+  width: 100%;
+  /* background-color: whitesmoke; */
+  /* box-shadow: 2px 2px 4px gainsboro; */
+  /* text-align: center; */
+  margin-bottom: 60px;
+
+}
+
+.main-box-servise {
+  text-align: center;
+  padding: 0 8%;
+}
+
+.main-box-servise {
+  border: none;
+}
+
+
+.border-article {
+  border-top: 5px double gainsboro;
+  padding-top: 60px;
+}
+
+
+/* フォームスタイル */
+.form {
+  width: 90%;
+}
+
+
+}
+

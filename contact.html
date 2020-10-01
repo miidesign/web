@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>miidesign</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- 問い合わせフォーム -->
+  <script src="https://sdk.form.run/js/v2/formrun.js"></script>
+</head>
+
+<!-- ボディオール -->
+<body id="body-all">
+  <div class="borderline"></div>
+
+<!-- コンテナA -->
+<div id="container-a">
+  
+<!-- ヘッダー -->
+<header class="header-a">
+
+<!-- ハンバーガーメニュースマホ用 -->
+
+
+<div id="nav-drawer">
+  <input id="nav-input" type="checkbox" class="nav-unshown">
+  <label id="nav-open" for="nav-input"><span></span></label>
+  <label class="nav-unshown" id="nav-close" for="nav-input"></label>
+  <div id="nav-content">
+    <ul class="main-menu-mobile">
+      <li class="main-menu-mobile-li"><a href="index.html">ホーム</a></li>
+      <li class="main-menu-mobile-li"><a href="index.html#aisatsu">ごあいさつ</a></li>
+      <li class="main-menu-mobile-li"><a href="index.html#sabisu">サービス</a></li>
+      <li class="main-menu-mobile-li"><a href="index.html#jisseki">実　績</a></li>
+      <li class="main-menu-mobile-li"><a href="#">お問合わせ</a></li>
+      <li class="main-menu-mobile-li"><a href="#">ブログ</a></li>
+    </ul>
+  </div>
+</div>
+
+
+<!-- ハンバーガーメニュー終わり -->
+
+
+<div id="header-top">
+  <a href="#">
+  <div class="header-top-logo">
+    <img src="images/miilogo3.png" alt="ロゴ画像"> 
+  </div>
+  </a>
+  <div class="header-top-tagline">
+    さいたま市のホームページ制作は miidesign へ
+  </div>
+</div>
+
+<!-- ナビメニューPC用 -->
+<nav class="header-menu">
+  <div>
+    <ul class="main-menu">
+      <li class="main-menu-li"><a href="index.html">ホーム</a></li>
+      <li class="main-menu-li"><a href="index.html#aisatsu">ごあいさつ</a></li>
+      <li class="main-menu-li"><a href="index.html#sabisu">サービス</a></li>
+      <li class="main-menu-li"><a href="index.html#jisseki">実　績</a></li>
+      <li class="main-menu-li"><a href="#">お問合わせ</a></li>
+      <li class="main-menu-li"><a href="#">ブログ</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div id="header-photo">
+  <div class="header-image">
+    <img class="img-pc-contact" src="images/contact-image.jpg" alt="トップイメージ画像-PC用画像">
+    <img class="img-sp-contact" src="images/contact-image-mobile.jpg" alt="トップイメージ画像-スマホ用画像">
+    
+    <!-- <img src="images/mii-topimage.jpg" alt="トップイメージ画像"> -->
+  </div>
+</div>
+
+</header>
+<!-- ヘッダー終わり -->
+
+<article class="contact-form">
+<h1 id="aisatsu">お問い合わせ</h1>
+
+<!-- お問合わせ -->
+<div class="form">
+
+  <!-- class, action, methodを変更しないでください -->
+  <form class="formrun" action="https://form.run/api/v1/r/z2nf6vsk58w66e7ljtt0xctq" method="post">
+    <!-- ↓自由に要素を追加・編集することができます -->
+    <div class="form-content">
+      <label>お名前</label>
+      <input name="お名前" type="text">
+    </div>
+  
+    <div class="form-content">
+      <label>メールアドレス [必須]</label>
+      <input name="メールアドレス" type="text" data-formrun-type="email" data-formrun-required>
+      <div data-formrun-show-if-error="メールアドレス">メールアドレスを正しく入力してください</div>
+    </div>
+  
+    <div class="form-content">
+      <label>お問い合わせ [必須]</label>
+      <textarea rows=10 name="お問い合わせ" data-formrun-required></textarea>
+      <div data-formrun-show-if-error="お問い合わせ">お問い合わせ入力してください</div>
+    </div>
+  
+    <!-- ボット投稿をブロックするためのタグ -->
+    <div class="_formrun_gotcha">
+      <style media="screen">._formrun_gotcha {position:absolute!important;height:1px;width:1px;overflow:hidden;}</style>
+      <label for="_formrun_gotcha">If you are a human, ignore this field</label>
+      <input type="text" name="_formrun_gotcha" id="_formrun_gotcha" tabindex="-1">
+    </div>
+  
+    <button type="submit" data-formrun-error-text="未入力の項目があります" data-formrun-submitting-text="送信中...">送　信</button>
+  </form>
+  
+  </div>
+
+</article>
+
+
+
+  <div class="retarn">
+    <a href="#">
+      <div class="retarnbtn">
+      <span class="center">△ 戻る △</span>
+      </div>
+    </a>
+  </div>
+
+
+</div>
+
+
+
+<footer>
+  &copy; 2020 miidesign
+</footer>
+
+<script> </script>
+
+
+
+</body>
+</html>
