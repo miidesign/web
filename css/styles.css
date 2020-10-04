@@ -567,11 +567,7 @@ button {
   line-height: 50px;
   text-align: center;
   border-left: solid 12px aquamarine;
-
-  /* border-left: solid 12px #709dff; */
 }
-
-
 
 
 .main-menu-mobile-li a {
@@ -579,16 +575,11 @@ button {
   text-decoration: none;
   color: gray;
   display: inline-block;
-
-  /* display: inline-block; */
 }
 
 .main-menu-mobile-li a:hover {
   color: aquamarine;
   border-bottom: aquamarine 3px solid;
-
-  /* display: inline-block; */
-
 }
 
 
