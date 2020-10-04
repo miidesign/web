@@ -87,18 +87,27 @@
   display: none;
 } */
 
+.header-menu {
+
+}
 
 .main-menu {
-  /* background-color: greenyellow; */
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: center;
   margin-bottom: 20px;
+}
 
+.main-menu a {
+  width: 100%;
+  text-decoration: none;
+  color: gray;
+  display: inline-block;
 }
 
 .main-menu-li {
-  width: 200px;
+  width: 165px;
   height: 40px;
   line-height: 40px;
   text-align: center;
@@ -107,10 +116,7 @@
   /* border-left: solid 12px #709dff; */
 }
 
-.main-menu-li a {
-  text-decoration: none;
-  color: gray;
-}
+
 
 .main-menu-li a:hover {
   color: aquamarine;
@@ -562,6 +568,7 @@ button {
 
 /* メニューの体裁 */
 .main-menu-mobile-li {
+  display: inline-block;
   width: 300px;
   height: 50px;
   line-height: 50px;
@@ -569,6 +576,7 @@ button {
   border-left: solid 12px aquamarine;
   /* border-left: solid 12px #709dff; */
 }
+
 
 .main-menu-mobile-li a {
   text-decoration: none;
