@@ -3,7 +3,7 @@
 #body-all {
   background-color: whitesmoke;
   color: gray;
-  font-size: 16px;
+  font-size: 17px;
   line-height: 1.7em;
   font-family: 
   "Helvetica Neue",
@@ -53,13 +53,6 @@
   object-fit: fill;
 }
 
-/* .header-top-logo img {
-
-  width:auto;
-  height:auto;
-  max-width:100%;
-  max-height:100%;
-} */
 
 .header-top-tagline {
   font-size: 15px;
@@ -87,9 +80,6 @@
   display: none;
 } */
 
-.header-menu {
-
-}
 
 .main-menu {
   width: 100%;
@@ -112,8 +102,6 @@
   line-height: 40px;
   text-align: center;
   border-left: solid 12px aquamarine;
-
-  /* border-left: solid 12px #709dff; */
 }
 
 
@@ -175,14 +163,11 @@
   /* box-shadow: 1.5px 1.5px gray; */
   box-shadow: 2px 2px 4px gainsboro;
   background: yellow;
-  color: white;
+  color: gray;
   /* 全てのプロパティをトランジション */
-  transition: all 0.3s;
+  transition: all 0.1s;
 }
 
-.contactbtn a:hover {
-  color: white;
-}
 
 .space-bottom {
   margin-bottom: 50px;
@@ -444,14 +429,21 @@ button {
 @media screen and (max-width: 740px) {
 
   #body-all {
-    font-size: 15px;
+    font-size: 16px;
   }
 
   #container-a {
-    padding-top: 15px;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
   }
 
   /* ヘッダー */
+
+  .header-top-logo {
+    width: 180px;
+    margin-top: 5px;
+  }
 
   .header-top-logo img {
     width: 90%;
@@ -567,35 +559,41 @@ button {
 
 
 /* メニューの体裁 */
+
 .main-menu-mobile-li {
-  display: inline-block;
+  /* display: inline-block; */
   width: 300px;
   height: 50px;
   line-height: 50px;
   text-align: center;
   border-left: solid 12px aquamarine;
+
   /* border-left: solid 12px #709dff; */
 }
 
 
+
+
 .main-menu-mobile-li a {
+  width: 100%;
   text-decoration: none;
   color: gray;
+  display: inline-block;
+
+  /* display: inline-block; */
 }
 
 .main-menu-mobile-li a:hover {
   color: aquamarine;
   border-bottom: aquamarine 3px solid;
+
+  /* display: inline-block; */
+
 }
 
 
 
 
-  .header-top-logo {
-    width: 180px;
-  
-    /* display: inline-block; */
-  }
 
 
   /* メニュー */
@@ -609,11 +607,14 @@ button {
   }
 
   .header-top-tagline {
-    font-size: 12px;
+    font-size: 13px;
     text-align: center;
     display: inline-block;
     margin-bottom: 10px;
     margin-top: -25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 1em;
   }
 
   #header-copy {
@@ -628,7 +629,7 @@ button {
 
   .header-copy-left {
     font-size: 18px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
 
 
